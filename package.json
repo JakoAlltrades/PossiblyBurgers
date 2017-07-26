@@ -1,0 +1,24 @@
+{
+  "name": "possiblyburger",
+  "version": "1.0.0",
+  "description": "The burger joint",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.15.3",
+    "pug": "^2.0.0-rc.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "do"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakoAlltrades/PossiblyBurgers.git"
+  },
+  "author": "J G B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JakoAlltrades/PossiblyBurgers/issues"
+  },
+  "homepage": "https://github.com/JakoAlltrades/PossiblyBurgers#readme"
+}
