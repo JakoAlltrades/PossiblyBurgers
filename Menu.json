@@ -1,0 +1,29 @@
+{
+    "nav": [
+        ["Home", "/"],
+        ["Directions", "directions"],
+        ["Burgers", "burgers"],
+        ["Sides","sides"],
+		["Desserts","desserts"]
+    ],
+	"burgers":[["Maybe Burger?"],
+			   ["Could be bacon?"],
+			   ["Is that an egg?"],
+			   ["Possibly with cheese?"],
+			   ["Where's the beef?"]
+	],
+	"sides":[["Potato?"],
+			 ["Onions?"],
+			 ["Mozzarella?"],
+			 ["Noodles?"],
+			 ["Poppers?"]	
+	],
+	"Desserts":[["Milk in a cup?"],
+				["Seconds?"],
+				["Ice Cream Burger?"],
+				["Skittles?"],
+				["Jello?"]
+		
+	]
+}
+
