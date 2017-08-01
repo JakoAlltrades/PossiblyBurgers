@@ -12,3 +12,11 @@ body{
 #image:hover{
 	background-color: aqua;
 }
+#image{
+	height: 100px;
+	width: 100px;
+}
+.1.resize{
+	height: 200px;
+	width: 40px;
+}
