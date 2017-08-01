@@ -6,23 +6,23 @@
         ["Sides","sides"],
 		["Desserts","desserts"]
     ],
-	"burgers":[["Maybe Burger?"],
-			   ["Could be bacon?"],
-			   ["Is that an egg?"],
-			   ["Possibly with cheese?"],
-			   ["Where's the beef?"]
+	"burgers":[["Maybe Burger?", "", "Plain burger. Has lettuce, tomato, onion and pickles."],
+			   ["Could be bacon?", "", "A burger with bacon. Can add chesse."],
+			   ["Is that an egg?", "", "A burger with an egg served on top."],
+			   ["Possibly with cheese?", "", "A cheese burger."],
+			   ["Where's the beef?", "", "A burger with an extra patty of beef."]
 	],
-	"sides":[["Potato?"],
-			 ["Onions?"],
-			 ["Mozzarella?"],
-			 ["Noodles?"],
-			 ["Poppers?"]	
+	"sides":[["Potato?", "", "French Fries"],
+			 ["Onions?", "", "Deep fried onion"],
+			 ["Mozzarella?", "", "Mozzarella sticks with a side of marinara for dipping."],
+			 ["Noodles?", "", "Macironi and Cheese"],
+			 ["Poppers?", "", "Jalapeno poppers"]	
 	],
-	"Desserts":[["Milk in a cup?"],
-				["Seconds?"],
-				["Ice Cream Burger?"],
-				["Skittles?"],
-				["Jello?"]
+	"Desserts":[["Milk in a cup?", "", "A milkshake"],
+				["Seconds?", "", "A second burger"],
+				["Ice Cream Burger?", "", "An ice cream sandwhich"],
+				["Skittles?", "", "Not M&M's, a fruity candy"],
+				["Jello?", "", "A serving of Jello, comes in flavors: Orange, Watermelon, Cherry, and Grape"]
 		
 	]
 }
