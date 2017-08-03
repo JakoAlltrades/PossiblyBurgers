@@ -2,6 +2,10 @@ html{
     background-color: #a3c00f;
     
 }
+#map {
+        height: 400px;
+        width: 100%;
+       }
 body{
     background-color: #593001;
     color: yellow;

@@ -3,4 +3,16 @@ extends layout
 block content
     h2=title
     div(id='map')
-    script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBx4FKVyG7z1wcF7ZptGQ2hTgt2pQIeci4&callback=initMap")
+    script.
+        function initMap() {
+            var uluru = {lat: 40.7626, lng: -111.8898};
+            var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 12,
+            center: uluru
+            });
+            var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+            });
+        }
+    script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyhboWrZ1oeF6JOLrr-pLNAt4VLu7Syp8&callback=initMap")
