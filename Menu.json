@@ -6,11 +6,11 @@
         ["Sides","sides"],
 		["Desserts","desserts"]
     ],
-	"burgers":[["Maybe Burger?", "", "Plain burger. Has lettuce, tomato, onion and pickles."],
-			   ["Could be bacon?", "", "A burger with bacon. Can add chesse."],
-			   ["Is that an egg?", "", "A burger with an egg served on top."],
-			   ["Possibly with cheese?", "", "A cheese burger."],
-			   ["Where's the beef?", "", "A burger with an extra patty of beef."]
+	"burgers":[["Maybe Burger?", "/BurgerImages/MaybeBurger.jpg", "Plain burger. Has lettuce, tomato, onion and pickles."],
+			   ["Could be bacon?", "/BurgerImages/CouldBeBacon.jpg", "A burger with bacon. Can add chesse."],
+			   ["Is that an egg?", "/BurgerImages/IsThatAnEgg.jpg", "A burger with an egg served on top."],
+			   ["Possibly with cheese?", "/BurgerImages/PossiblyWithCheese.jpg", "A cheese burger."],
+			   ["Where's the beef?", "/BurgerImages/WheresTheBeef.jpg", "A burger with an extra patty of beef."]
 	],
 	"sides":[["Potato?", "", "French Fries"],
 			 ["Onions?", "", "Deep fried onion"],

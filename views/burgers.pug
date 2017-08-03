@@ -3,17 +3,6 @@ extends layout
 block content
 	h2=title
 block image
-	table
-		tr
-			td
-				img(src="../BurgerImages/MaybeBurger.jpg")
-			td
-				img(src="../BurgerImages/CouldBeBacon.jpg")
-		tr
-			td
-				img(src="../BurgerImages/PossiblyWithCheese.jpg")
-			td
-				img(src="../BurgerImages/WheresTheBeef.jpg")
-		tr
-			td
-				img(src="../BurgerImages/IsThatAnEgg.jpg")
+	each item in config.burgers
+		div(id="imageBox")
+			img(src=item[1])

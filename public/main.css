@@ -13,31 +13,18 @@ body{
     padding: 20px;
     margin: 20px auto;
 }
-#image td:hover{
+#image:hover{
 	background-color: purple;
 } 
 #image img{
-	min-height: 75px;
-	min-width: 100%;
-	max-height: 75px;
-	max-width: 100%;
-	float:left;
-	position: relative;
+	float:right;
+ 	min-height: 50px;
+	min-width: 50px;
+	max-height: 50px;
+	max-width: 50px;
 }
 #image{
-	min-height: 100%;
-	max-height: 100%;
-	margin: auto;
-	float: left;
-	box-sizing: border-box;
-	
-}
-#image table{
-	min-height: 100%;
-	max-height: 100%;
-	margin: auto;
-	float: left;
-	box-sizing: border-box;
-	position: absolute;
+	padding:20px;
+	float: right;
 	
 }
