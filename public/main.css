@@ -13,10 +13,7 @@ body{
     padding: 20px;
     margin: 20px auto;
 }
-#image:hover{
-	background-color: purple;
-} 
-#image img{
+#imageBox img{
 	float:right;
  	min-height: 50px;
 	min-width: 50px;
@@ -24,7 +21,26 @@ body{
 	max-width: 50px;
 }
 #image{
-	padding:20px;
 	float: right;
-	
 }
+#imageBox{
+	float:right;
+ 	min-height: 50px;
+	min-width: 50px;
+	max-height: 50px;
+	max-width: 50px;
+	padding: 20px;
+}
+#imageBox h1{
+	overflow: hidden;
+	opacity: 0;
+	transition: opacity .5s linear;	
+}
+
+#imageBox:hover{
+	background-color: purple;
+	opacity: 1;
+} 
+#imageBox h1:hover{
+	opacity: 1;
+} 
