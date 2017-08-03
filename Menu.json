@@ -18,11 +18,11 @@
 			 ["Noodles?", "", "Macironi and Cheese"],
 			 ["Poppers?", "", "Jalapeno poppers"]	
 	],
-	"Desserts":[["Milk in a cup?", "", "A milkshake"],
-				["Seconds?", "", "A second burger"],
-				["Ice Cream Burger?", "", "An ice cream sandwhich"],
-				["Skittles?", "", "Not M&M's, a fruity candy"],
-				["Jello?", "", "A serving of Jello, comes in flavors: Orange, Watermelon, Cherry, and Grape"]
+	"desserts":[["Milk in a cup?", "/BurgerImages/MilkInACup.jpg", "A milkshake"],
+				["Seconds?", "/BurgerImages/MaybeBurger.jpg", "A second burger"],
+				["Ice Cream Burger?", "/BurgerImages/IcecreamBurger.jpg", "An ice cream sandwhich"],
+				["Skittles?", "/BurgerImages/Skittles.jpg", "Not M&M's, a fruity candy"],
+				["Jello?", "/BurgerImages/Jello.jpg", "A serving of Jello, comes in flavors: Orange, Watermelon, Cherry, and Grape"]
 		
 	]
 }
