@@ -3,8 +3,13 @@ html{
     
 }
 #map {
-        height: 400px;
-        width: 100%;
+        min-height: 400px;
+        min-width: 400px;
+        max-width: 70%;
+        max-height: 30%;
+        align-self: center;
+        margin-left: 15%;
+        margin-right: 15%;
        }
 body{
     background-color: #593001;
