@@ -5,9 +5,14 @@ html
 		link(href='look.css',rel='stylesheet')
 	body
 		header
-			h1 PossiblyBurgers		
-		div(id='content')
-			block content
-		div(id='image')
-			block image
-		footer
+			h1 PossiblyBurgers
+            nav
+                ul
+                    each item in config.menu
+                        li
+                            a(href=item[1]) #{item[0]}
+        div(id='content')
+            block content
+        div(id='image')
+            block image
+        footer
