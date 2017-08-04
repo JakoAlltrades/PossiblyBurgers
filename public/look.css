@@ -1,11 +1,19 @@
 html{
-    background-color: #a3c00f;
+    background-color: #417378;
     
 }
 body{
-    background-color: #593001;
-    color: yellow;
+    background-color: #F4F7D9;
+    color: #3E423A;
     width: 100%;
     padding: 20px;
     margin: 20px auto;
+}
+a:link
+{
+    color:#417378;
+}
+a:visited
+{
+    color:#6C6E58;
 }
