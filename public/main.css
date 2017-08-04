@@ -21,10 +21,13 @@
 	padding: 20px;
 }
 #imageBox h1{
-	visibility: hidden
+	visibility: hidden;
+	transition: visibility 1s;
 }
 
 #imageBox:hover{
-	background-color: purple;
+	background: purple;
+	padding-bottom: 40px;
+	
 	visibility: visible
 } 
