@@ -29,10 +29,12 @@
 	visibility: hidden;
 	transition: visibility 1s;
 }
+#imageBox h1:hover{
+	visibility: visible;
+	padding-bottom: 40px;
+}
+
 
 #imageBox:hover{
 	background: purple;
-	padding-bottom: 40px;
-	
-	visibility: visible
 } 
