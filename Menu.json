@@ -12,11 +12,11 @@
 			   ["Possibly with cheese?", "/BurgerImages/PossiblyWithCheese.jpg", "A cheese burger."],
 			   ["Where's the beef?", "/BurgerImages/WheresTheBeef.jpg", "A burger with an extra patty of beef."]
 	],
-	"sides":[["Potato?", "", "French Fries"],
-			 ["Onions?", "", "Deep fried onion"],
-			 ["Mozzarella?", "", "Mozzarella sticks with a side of marinara for dipping."],
-			 ["Noodles?", "", "Macironi and Cheese"],
-			 ["Poppers?", "", "Jalapeno poppers"]	
+	"sides":[["Potato?", "/BurgerImages/Potato.jpg", "French Fries"],
+			 ["Onions?", "/BurgerImages/Onions.jpg", "Deep fried onion"],
+			 ["Mozzarella?", "/BurgerImages/Mozzarella.jpg", "Mozzarella sticks with a side of marinara for dipping."],
+			 ["Noodles?", "/BurgerImages/Noodles.jpg", "Macironi and Cheese"],
+			 ["Poppers?", "/BurgerImages/Poppers.jpg", "Jalapeno poppers"]	
 	],
 	"desserts":[["Milk in a cup?", "/BurgerImages/MilkInACup.jpg", "A milkshake"],
 				["Seconds?", "/BurgerImages/MaybeBurger.jpg", "A second burger"],

@@ -1,0 +1,8 @@
+extends layout
+ 
+block content
+	h2=title
+block image
+	each item in config.sides
+		div(id="imageBox")
+			img(src=item[1])
