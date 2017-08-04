@@ -1,27 +1,16 @@
-html{
-    background-color: #a3c00f;
-    
-}
+
 #map {
         height: 400px;
         width: 100%;
        }
-body{
-    background-color: #593001;
-    color: yellow;
-    width: 100%;
-    padding: 20px;
-    margin: 20px auto;
-}
 #imageBox img{
-	float:right;
  	min-height: 50px;
 	min-width: 50px;
 	max-height: 50px;
 	max-width: 50px;
 }
 #image{
-	float: right;
+	float: left;
 }
 #imageBox{
 	float:right;
@@ -32,15 +21,10 @@ body{
 	padding: 20px;
 }
 #imageBox h1{
-	overflow: hidden;
-	opacity: 0;
-	transition: opacity .5s linear;	
+	visibility: hidden
 }
 
 #imageBox:hover{
 	background-color: purple;
-	opacity: 1;
-} 
-#imageBox h1:hover{
-	opacity: 1;
+	visibility: visible
 } 
